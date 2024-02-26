@@ -8,7 +8,9 @@ public abstract class DatosEmpresariales  //No se puede instaciar
 
     public DatosEmpresariales (int i, String adscripcion, String telefonoExterior, String puesto)
     {
-
+        this.adscripcion = adscripcion;
+        this.telefonoExterior = telefonoExterior;
+        this.puesto = puesto;
     }
 
     String getAdscripcion() {

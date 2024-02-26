@@ -1,12 +1,16 @@
 package gestorEmpresarialDatos;
 
-public final class DatosPersonales  // no se puede dar herencia
+public final class DatosPersonales  extends DatosEmpresariales // no se puede dar herencia
 {
     private int id;
     private String nombre;
     private String apellidos;
     private String correo;
     private String whatsapp;
+
+    public DatosPersonales(int i, String adscripcion, String telefonoExterior, String puesto) {
+        super(i, adscripcion, telefonoExterior, puesto);
+    }
 
     protected int getId()
     {
