@@ -8,6 +8,31 @@ public final class Empresa
     private String represetanteLegal;
     private String telefono;
     private String rfc;
-    private Empleados datosRH;
+    public Empleados datosRH;
 
+    //public GestionErrores error;
+
+    public Empresa(String nombreEmpresa, String represetanteLegal)
+    {
+        this.nombreEmpresa = nombreEmpresa;
+        this.represetanteLegal = represetanteLegal;
+    }
+
+    public String getRepresetanteLegal() {
+        return represetanteLegal;
+    }
+
+    public void setRepresetanteLegal(String represetanteLegal) {
+        this.represetanteLegal = represetanteLegal;
+    }
+
+    public void setTelefono(String telefono)
+    {
+        this.telefono = telefono;
+    }
+
+    public String getInfo()
+    {
+        return null;
+    }
 }
