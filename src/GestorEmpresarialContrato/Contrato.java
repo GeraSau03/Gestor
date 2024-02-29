@@ -30,19 +30,5 @@ public final class Contrato
         this.annio = annio;
     }
 
-    public String getHorario() {
-        return horario;
-    }
 
-    public void setHorario(String horario) {
-        this.horario = horario;
-    }
-
-    public Cargos getTipoCargos() {
-        return tipoCargos;
-    }
-
-    public void setTipoCargos(Cargos tipoCargos) {
-        this.tipoCargos = tipoCargos;
-    }
 }
