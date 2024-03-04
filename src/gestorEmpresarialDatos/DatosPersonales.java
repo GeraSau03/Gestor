@@ -17,7 +17,7 @@ public final class DatosPersonales  extends DatosEmpresariales // no se puede da
         return this.id;
     }
 
-    protected void setId(int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -49,7 +49,7 @@ public final class DatosPersonales  extends DatosEmpresariales // no se puede da
         return whatsapp;
     }
 
-    protected void setWhatsapp(String whatsapp) {
+    public void setWhatsapp(String whatsapp) {
         this.whatsapp = whatsapp;
     }
 }

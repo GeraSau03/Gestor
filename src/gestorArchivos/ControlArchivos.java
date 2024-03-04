@@ -28,4 +28,6 @@ public abstract class ControlArchivos
     {
         return false;
     }
+
+    public abstract void Cerrar();
 }

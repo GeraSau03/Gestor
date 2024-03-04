@@ -1,5 +1,6 @@
 package gestorEmpresarialEmpresa;
 
+import GestorErrores.*;
 import gestorEmpresarialEmpleados.*;
 
 public final class Empresa
@@ -9,8 +10,7 @@ public final class Empresa
     private String telefono;
     private String rfc;
     public Empleados datosRH;
-
-    //public GestionErrores error;
+    public GestionErrores error;
 
     public Empresa(String nombreEmpresa, String represetanteLegal)
     {
@@ -33,6 +33,6 @@ public final class Empresa
 
     public String getInfo()
     {
-        return null;
+        return nombreEmpresa + represetanteLegal +  telefono;
     }
 }

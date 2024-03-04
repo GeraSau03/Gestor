@@ -3,8 +3,14 @@ package gestorArchivos;
 
 public interface iFileText
 {
-    //public void AbrirModoLectura()
-   // {
 
-    //}
+    public String leer();
+
+    public void AbrirModoLectura();
+
+    public void Escribir(String contenido);
+
+    public void Cerar();
+
+
 }
